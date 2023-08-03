@@ -1,0 +1,1 @@
+The HCA features of sentences in AMR 2.0 can be found via document_id, as AMR 3.0 is a superset of AMR 2.0.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="72b5a634-0365-49e8-9454-39bf0934efa7" name="chuanqi@10.201.207.205">
+        <fileTransfer rootFolder="/sda/atur/code/SPRING/spring-Clause" accessType="SFTP" host="10.201.207.205" port="22" sshConfigId="746fa678-d584-4eed-a97e-ad1964a2dc81" sshConfig="chuanqi@10.201.207.205:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

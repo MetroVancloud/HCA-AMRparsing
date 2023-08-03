@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="fyl@10.201.223.176:22 password (2)" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="3090">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/sda/atur/code/SPRING/spring-Clause" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="chuanqi@10.201.207.205">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/sda/atur/code/SPRING/spring-Clause" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/__MACOSX" />
+            <excludedPath local="true" path="$PROJECT_DIR$/spring_amr.egg-info" />
+            <excludedPath local="true" path="$PROJECT_DIR$/runs" />
+            <excludedPath local="true" path="$PROJECT_DIR$/data" />
+            <excludedPath local="true" path="$PROJECT_DIR$/amr-evaluation" />
+            <excludedPath local="true" path="$PROJECT_DIR$/amr-evaluation-master" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="fanyunlong@10.201.103.59:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/sda/atur/code/SPRING/spring-Clause" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="fanyunlong@10.201.103.59:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/sda/atur/code/SPRING/spring-Clause" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="fyl@10.201.223.176:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/sda1_hd/fanyunlong/amr_parsing/spring-Clause" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="fyl@10.201.223.176:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/sda1_hd/fanyunlong/amr_parsing/spring-Clause" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

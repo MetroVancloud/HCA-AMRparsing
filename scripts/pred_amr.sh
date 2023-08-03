@@ -1,0 +1,21 @@
+export PYTHONPATH=$PYTHONPATH:./
+python bin/predict_amrs.py \
+  --datasets /mnt/sda1_hd/fanyunlong/amr_parsing/data/AMR/amr_3.0_clause/test.txt \
+  --gold-path /mnt/sda1_hd/fanyunlong/amr_parsing/data/AMR/amr_3.0_clause/gold.txt \
+  --pred-path /mnt/sda1_hd/fanyunlong/amr_parsing/data/AMR/amr_3.0_clause/mask_00110_12_0-11-amr3.0-test_pred.txt \
+  --checkpoint /mnt/sda1_hd/fanyunlong/amr_parsing/spring-Clause3/runs/mask_00110_12_0-11-amr3.0/best-smatch_checkpoint_22_0.8377.pt \
+  --beam-size 5 \
+  --batch-size 500 \
+  --device cuda:0 \
+  --penman-linearization \
+  --use-pointer-tokens \
+  --feature_path /mnt/sda1_hd/fanyunlong/amr_parsing/data/AMR/amr_3.0_clause/test.txt.features \
+  --clause_token_visibility \
+  --clause_token_inf_mask \
+  --attn_rate_same_clause 0 \
+  --attn_rate_adjacent_clause 0 \
+  --attn_rate_nonadjacent_clause 1 \
+  --attn_rate_keyword_token 1 \
+  --attn_rate_reen_token 0 \
+  --clause_attn_head_num 12 \
+  --clause_attn_layer_id "0 1 2 3 4 5 6 7 8 9 10 11"
